@@ -29,8 +29,8 @@ public class GameManager : MonoBehaviour
 
     private void Spawner()
     {
-        InvokeRepeating("SpawnBloques", 0.5f, spawnRate);
-    }
+        InvokeRepeating("SpawnBloques", 0.5f, spawnRate);        
+    }   
 
     private void SpawnBloques()
     {
